@@ -25,7 +25,14 @@ int main()
           {
              for(j=0;j<k;j++)
           {  
-                 if(a[i]<)
+                 if(a[i]<a[j])
+                 {
+                     t=a[i];
+                     a[i]=a[j];
+                     a[j]=t;
           }
-    {
+             }
+          }
+    printf("%d %d",a[0],a[n-1]);
+    return 0;
 }
